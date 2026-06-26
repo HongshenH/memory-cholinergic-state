@@ -14,7 +14,7 @@ Source Data files containing the numerical values underlying the figures are pro
 * `fig2_state_control/`: code related to cholinergic-state and LFP analyses
 * `fig3_temporal_coding/`: code related to temporal coding and population analyses
 * `fig4_behavior/`: code related to behavioral analyses
-* `fig5_endogenous_dynamics/`: code related to endogenous CA2MS activity analyses
+* `fig5_endogenous_feedback/`: code related to endogenous CA2MS activity analyses
 * `demo_data/`: representative example data for code demonstration
 * `demo/`: demo scripts and example outputs
 

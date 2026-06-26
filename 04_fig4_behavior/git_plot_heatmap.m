@@ -51,4 +51,3 @@ yticks([])
 axis xy;
 colorrange = caxis;
 caxis([min(colorrange), max(colorrange)]);
-close all;

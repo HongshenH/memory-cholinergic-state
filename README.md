@@ -10,11 +10,11 @@ Source Data files containing the numerical values underlying the figures are pro
 
 ## Repository structure
 
-* `fig1_septal_circuit/`: code related to septal circuit classification and CA2–MS analyses
-* `fig2_state_control/`: code related to cholinergic-state and LFP analyses
+* `fig1_septal_circuit/`: code related to septal cell classification and CA2-driven septal inhibition
+* `fig2_state_control/`: code related to hippocampal-state and LFP analyses
 * `fig3_temporal_coding/`: code related to temporal coding and population analyses
 * `fig4_behavior/`: code related to behavioral analyses
-* `fig5_endogenous_feedback/`: code related to endogenous CA2MS activity analyses
+* `fig5_endogenous_feedback/`: code related to endogenous activity analyses
 * `demo_data/`: representative example data for code demonstration
 * `demo/`: demo scripts and example outputs
 
@@ -38,7 +38,7 @@ Expected output includes example analysis results and/or figures saved to the ou
 
 ## Instructions for use
 
-To run the analysis code on user data, place input files in the expected format described in each figure-specific folder and run the corresponding scripts. Full reproduction of all manuscript analyses requires the complete datasets. Source Data files are provided with the manuscript, and full raw anatomical imaging, electrophysiology, photometry and video-recording data are available from the corresponding authors upon reasonable request.
+To run the analysis code on user data, place input files in the expected format described in each figure-specific folder and run the corresponding scripts. Full reproduction of all manuscript analyses requires the complete datasets. 
 
 ## License
 

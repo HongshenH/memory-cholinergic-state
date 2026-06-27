@@ -128,7 +128,7 @@ trace_mat = baseline_corrected;
 mean_trace = mean(trace_mat, 1, 'omitnan');
 sem_trace  = std(trace_mat, 0, 1, 'omitnan') ./ sqrt(size(trace_mat, 1));
 
-%% Smooth traces for visualization
+%% Smooth traces for visualization only, optional
 
 SPAN = 2;
 

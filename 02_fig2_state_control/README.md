@@ -1,4 +1,4 @@
-# 02_fig2_state_control
+# fig2_state_control
 
 This folder contains example code related to Fig. 2, which examines how optogenetic manipulation of hippocampal feedback regulates its own cholinergic state and network-state dynamics.
 

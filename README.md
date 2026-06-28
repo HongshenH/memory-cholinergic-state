@@ -32,7 +32,7 @@ Typical installation time on a standard desktop computer is less than 10 min, ex
 
 Each analysis folder contains example code, demo input data and folder-specific instructions. Demo input data are stored in the local `git_folder/` within each analysis folder. Expected results from the demo workflow are provided in the corresponding `output/` folder.
 
-The demo analyses are intended to illustrate code execution and expected output format. Full reproduction of all manuscript analyses requires the complete datasets and may require additional analysis scripts not included in this demonstration repository.
+The demo analyses are intended to illustrate code execution and expected output format. Full reproduction of all manuscript analyses requires the complete datasets described in the Data Availability statement.
 
 ## Instructions for use
 

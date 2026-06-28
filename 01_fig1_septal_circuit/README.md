@@ -4,6 +4,6 @@ This folder contains MATLAB code for unsupervised classification of medial septu
 
 `git_01_slp_cluster.m` performs unsupervised cell classification and t-SNE embedding/visualization. Example input data are provided in `git_folder/SLP_input_table.mat`, which contains intrinsic electrophysiological features of MS cells, including waveform, firing-rate and bursting-related properties.
 
-The expected output includes a t-SNE plot showing clustered MS cells, together with summary plots of cluster proportions and mean electrophysiological feature values for each cluster.
+The expected output includes a t-SNE plot showing clustered MS cells, together with summary plots of cluster proportions and mean electrophysiological feature values for each cluster. Example expected results are provided in the output folder.
 
 Before running the script, please unzip `srinivas.gs_mtools-master` and keep the unzipped folder in this directory. The `CellSorter-master` folder should also be kept in this directory. The script was tested in MATLAB R2022b.

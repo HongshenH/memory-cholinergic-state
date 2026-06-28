@@ -4,19 +4,17 @@ Custom MATLAB and Python code associated with the manuscript “Memory dynamical
 
 ## Overview
 
-This repository contains custom analysis code used for the manuscript. Scripts are organized by figure and analysis type.
+This repository contains core custom analysis code used for the manuscript. Scripts are organized by figure and analysis type.
 
-Source Data files containing the numerical values underlying the figures are provided with the manuscript. A small demo dataset is included in this repository to illustrate code execution. Full raw datasets are available from the corresponding authors upon reasonable request.
+Source Data files containing the numerical values underlying the figures are provided with the manuscript. Representative demo data are included within the corresponding analysis folders to illustrate code execution. Full raw datasets are available from the corresponding authors upon reasonable request.
 
 ## Repository structure
 
-* `fig1_septal_circuit/`: code related to septal cell classification and CA2-driven septal inhibition
+* `fig1_septal_circuit/`: code related to septal cell classification
 * `fig2_state_control/`: code related to hippocampal-state and LFP analyses
 * `fig3_temporal_coding/`: code related to temporal coding and population analyses
 * `fig4_behavior/`: code related to behavioral analyses
 * `fig5_endogenous_feedback/`: code related to endogenous activity analyses
-* `demo_data/`: representative example data for code demonstration
-* `demo/`: demo scripts and example outputs
 
 ## System requirements
 
@@ -26,19 +24,19 @@ No non-standard hardware is required to run the provided demo analyses. Neuralyn
 
 ## Installation
 
-Clone or download this repository and add the relevant code folders to the MATLAB path. For Python analyses, install the required packages listed in `requirements.txt`.
+Clone or download this repository and add the relevant code folders to the MATLAB path. For Python analyses, install the required packages listed in the corresponding `requirements.txt` files.
 
 Typical installation time on a standard desktop computer is less than 10 min, excluding MATLAB or Python installation.
 
-## Demo
+## Demo analyses
 
-Representative demo scripts are provided in the `demo/` folder and can be run using the example data in `demo_data/`.
+Each analysis folder contains example code, demo input data and folder-specific instructions. Demo input data are stored in the local `git_folder/` within each analysis folder. Expected results from the demo workflow are provided in the corresponding `output/` folder.
 
-Expected output includes example analysis results and/or figures saved to the output folder. Expected runtime for the demo analyses is less than 10 min on a standard desktop computer.
+The demo analyses are intended to illustrate code execution and expected output format. Full reproduction of all manuscript analyses requires the complete datasets and may require additional analysis scripts not included in this demonstration repository.
 
 ## Instructions for use
 
-To run the analysis code on user data, place input files in the expected format described in each figure-specific folder and run the corresponding scripts. Full reproduction of all manuscript analyses requires the complete datasets. 
+To run the analysis code on user data, place input files in the expected format described in each figure-specific folder and run the corresponding scripts or notebooks. Folder-specific README files describe the required input data, dependencies and expected outputs.
 
 ## License
 

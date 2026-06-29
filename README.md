@@ -26,7 +26,7 @@ No non-standard hardware is required to run the provided demo analyses. Neuralyn
 
 Clone or download this repository and add the relevant code folders to the MATLAB path. For Python analyses, install the required packages listed in the corresponding `requirements.txt` files.
 
-Typical installation time on a standard desktop computer is less than 10 min, excluding MATLAB or Python installation.
+On Windows, if path-length errors occur when extracting the GitHub ZIP file, please extract the repository to a short directory path such as C:\repo\ or use git clone.
 
 ## Demo analyses
 
